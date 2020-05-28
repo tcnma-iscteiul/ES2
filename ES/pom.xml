@@ -70,16 +70,13 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<!-- Build an executable JAR -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.1.0</version>
 				<configuration>
 					<archive>
 						<manifest>
-							<addClasspath>true</addClasspath>
-							<classpathPrefix>C:\Users\tomas\git\ES2\ES\src\main\java\</classpathPrefix>
-							<mainClass>ProjetoES\ES\MathUtil</mainClass>
+							<!-- Jar file entry point -->
+							<mainClass>C:\Users\tomas\git\ES2\ES\src\main\java\ProjetoES\ES</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
