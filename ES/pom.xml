@@ -69,18 +69,6 @@
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<configuration>
-					<archive>
-						<manifest>
-							<!-- Jar file entry point -->
-							<mainClass>C:\Users\tomas\git\ES2\ES\src\main\java\ProjetoES\ES</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
