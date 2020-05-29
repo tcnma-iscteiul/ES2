@@ -1,5 +1,5 @@
 FROM openjdk:12-alpine
-WORKDIR /
-COPY ./target/ES.jar /ES 
+ADD C:\Users\tomas\git\ES2\ES\target\ES.jar C:\Users\tomas\git\ES2\ES\target\ES.jar
 MAINTAINER Tomas Afonso
-CMD ["java", "-jar", "/ES.jar"]
+EXPOSE 8080
+CMD ["java", "-jar", "C:\Users\tomas\git\ES2\ES\target\ES.jar"]
