@@ -7,7 +7,7 @@ stage('Git Checkout') {
     git 'https://github.com/tcnma-iscteiul/ES2'
     }
     
-stage('Build Docker Imaga'){
+stage('Build Docker Image'){
      powershell "docker build -f Dockerfile -t  ${imagename} ."
     }
     
